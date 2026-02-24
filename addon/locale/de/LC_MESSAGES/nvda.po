@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CMDReader\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-24 10:43\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: NVDA DevOn Addon\n"
+
+#: __init__.py:203
+msgid "Bottom"
+msgstr "Ende"
+
+#: __init__.py:25
+msgid "CMDReader"
+msgstr "CMDReader"
+
+#: __init__.py:144
+msgid "Command Finished"
+msgstr "Befehl abgeschlossen"
+
+#: __init__.py:214
+msgid "Log file not found"
+msgstr "Logdatei nicht gefunden"
+
+#: __init__.py:180
+#: __init__.py:196
+msgid "Not in Command Prompt"
+msgstr "Nicht in der Eingabeaufforderung"
+
+#: __init__.py:206
+msgid "Open CMDReader Log File in Text Editor"
+msgstr "CMDReader-Logdatei im Texteditor öffnen"
+
+#: __init__.py:211
+msgid "Opening CMDReader log"
+msgstr "CMDReader-Log wird geöffnet"
+
+#: __init__.py:190
+msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
+msgstr "Schatten-Scrollen abwärts: Liest CMD-Verlaufzeilen (Strg+Alt+Unten)"
+
+#: __init__.py:174
+msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
+msgstr "Schatten-Scrollen aufwärts: Liest CMD-Verlaufzeilen (Strg+Alt+Oben)"
+
+#: __init__.py:187
+msgid "Top"
+msgstr "Anfang"
