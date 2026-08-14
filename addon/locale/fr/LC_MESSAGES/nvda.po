@@ -1,54 +1,60 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMDReader\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-24 10:43\n"
+"Project-Id-Version: CMDReader 2026.8.5\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-08-11 09:28+0700\n"
 "PO-Revision-Date: \n"
-"Last-Translator: \n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: NVDA DevOn Addon\n"
+"X-Generator: DevOn Addon\n"
 
-#: __init__.py:203
+#: __init__.py:463
 msgid "Bottom"
-msgstr "Fin"
+msgstr "Bas"
 
-#: __init__.py:25
+#: __init__.py:61
 msgid "CMDReader"
 msgstr "CMDReader"
 
-#: __init__.py:144
+#: __init__.py:397
 msgid "Command Finished"
 msgstr "Commande terminée"
 
-#: __init__.py:214
+#: __init__.py:491
 msgid "Log file not found"
-msgstr "Fichier journal non trouvé"
+msgstr "Fichier journal introuvable"
 
-#: __init__.py:180
-#: __init__.py:196
+#: __init__.py:437
+#: __init__.py:457
+msgid "No history available"
+msgstr "Aucun historique disponible"
+
+#: __init__.py:432
+#: __init__.py:452
+#: __init__.py:472
 msgid "Not in Command Prompt"
-msgstr "Pas dans l'invite de commande"
+msgstr "Pas dans l'invite de commandes"
 
-#: __init__.py:206
+#: __init__.py:466
 msgid "Open CMDReader Log File in Text Editor"
-msgstr "Ouvrir le fichier journal CMDReader dans l'éditeur de texte"
+msgstr "Ouvrir le fichier journal de CMDReader dans l'éditeur de texte"
 
-#: __init__.py:211
+#: __init__.py:488
 msgid "Opening CMDReader log"
-msgstr "Ouverture du journal CMDReader"
+msgstr "Ouverture du journal de CMDReader"
 
-#: __init__.py:190
+#: __init__.py:446
 msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
-msgstr "Défilement fantôme vers le bas : Lit les lignes de l'historique CMD (Control+Alt+Bas)"
+msgstr "Défilement fantôme vers le bas : lit les lignes d'historique CMD (Control+Alt+Down)"
 
-#: __init__.py:174
+#: __init__.py:426
 msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
-msgstr "Défilement fantôme vers le haut : Lit les lignes de l'historique CMD (Control+Alt+Haut)"
+msgstr "Défilement fantôme vers le haut : lit les lignes d'historique CMD (Control+Alt+Up)"
 
-#: __init__.py:187
+#: __init__.py:443
 msgid "Top"
-msgstr "Début"
+msgstr "Haut"

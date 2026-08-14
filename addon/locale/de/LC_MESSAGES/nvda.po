@@ -1,54 +1,60 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMDReader\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-24 10:43\n"
+"Project-Id-Version: CMDReader 2026.8.5\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-08-11 09:28+0700\n"
 "PO-Revision-Date: \n"
-"Last-Translator: \n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: German\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: NVDA DevOn Addon\n"
+"X-Generator: DevOn Addon\n"
 
-#: __init__.py:203
+#: __init__.py:463
 msgid "Bottom"
-msgstr "Ende"
+msgstr "Unten"
 
-#: __init__.py:25
+#: __init__.py:61
 msgid "CMDReader"
 msgstr "CMDReader"
 
-#: __init__.py:144
+#: __init__.py:397
 msgid "Command Finished"
-msgstr "Befehl abgeschlossen"
+msgstr "Befehl beendet"
 
-#: __init__.py:214
+#: __init__.py:491
 msgid "Log file not found"
-msgstr "Logdatei nicht gefunden"
+msgstr "Protokolldatei nicht gefunden"
 
-#: __init__.py:180
-#: __init__.py:196
+#: __init__.py:437
+#: __init__.py:457
+msgid "No history available"
+msgstr "Kein Verlauf verfügbar"
+
+#: __init__.py:432
+#: __init__.py:452
+#: __init__.py:472
 msgid "Not in Command Prompt"
 msgstr "Nicht in der Eingabeaufforderung"
 
-#: __init__.py:206
+#: __init__.py:466
 msgid "Open CMDReader Log File in Text Editor"
-msgstr "CMDReader-Logdatei im Texteditor öffnen"
+msgstr "CMDReader-Protokolldatei im Texteditor öffnen"
 
-#: __init__.py:211
+#: __init__.py:488
 msgid "Opening CMDReader log"
-msgstr "CMDReader-Log wird geöffnet"
+msgstr "CMDReader-Protokoll wird geöffnet"
 
-#: __init__.py:190
+#: __init__.py:446
 msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
-msgstr "Schatten-Scrollen abwärts: Liest CMD-Verlaufzeilen (Strg+Alt+Unten)"
+msgstr "Schatten-Bildlauf nach unten: Liest CMD-Verlaufszeilen (Control+Alt+Down)"
 
-#: __init__.py:174
+#: __init__.py:426
 msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
-msgstr "Schatten-Scrollen aufwärts: Liest CMD-Verlaufzeilen (Strg+Alt+Oben)"
+msgstr "Schatten-Bildlauf nach oben: Liest CMD-Verlaufszeilen (Control+Alt+Up)"
 
-#: __init__.py:187
+#: __init__.py:443
 msgid "Top"
-msgstr "Anfang"
+msgstr "Oben"

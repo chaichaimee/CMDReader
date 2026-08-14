@@ -5,8 +5,8 @@ msgstr ""
 "POT-Creation-Date: 2026-08-11 09:28+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
-"Language-Team: Spanish\n"
-"Language: es\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: __init__.py:463
 msgid "Bottom"
-msgstr "Abajo"
+msgstr "أسفل"
 
 #: __init__.py:61
 msgid "CMDReader"
@@ -22,39 +22,39 @@ msgstr "CMDReader"
 
 #: __init__.py:397
 msgid "Command Finished"
-msgstr "Comando finalizado"
+msgstr "انتهى الأمر"
 
 #: __init__.py:491
 msgid "Log file not found"
-msgstr "Archivo de registro no encontrado"
+msgstr "لم يتم العثور على ملف السجل"
 
 #: __init__.py:437
 #: __init__.py:457
 msgid "No history available"
-msgstr "Historial no disponible"
+msgstr "لا يوجد سجل متاح"
 
 #: __init__.py:432
 #: __init__.py:452
 #: __init__.py:472
 msgid "Not in Command Prompt"
-msgstr "No está en el Símbolo del sistema"
+msgstr "لست في موجه الأوامر"
 
 #: __init__.py:466
 msgid "Open CMDReader Log File in Text Editor"
-msgstr "Abrir archivo de registro de CMDReader en el editor de texto"
+msgstr "فتح ملف سجل CMDReader في محرر النصوص"
 
 #: __init__.py:488
 msgid "Opening CMDReader log"
-msgstr "Abriendo registro de CMDReader"
+msgstr "جاري فتح سجل CMDReader"
 
 #: __init__.py:446
 msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
-msgstr "Desplazamiento sombra abajo: Lee líneas del historial de CMD (Control+Alt+Down)"
+msgstr "التمرير الظلي لأسفل: يقرأ أسطر سجل CMD (Control+Alt+Down)"
 
 #: __init__.py:426
 msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
-msgstr "Desplazamiento sombra arriba: Lee líneas del historial de CMD (Control+Alt+Up)"
+msgstr "التمرير الظلي لأعلى: يقرأ أسطر سجل CMD (Control+Alt+Up)"
 
 #: __init__.py:443
 msgid "Top"
-msgstr "Arriba"
+msgstr "أعلى"
