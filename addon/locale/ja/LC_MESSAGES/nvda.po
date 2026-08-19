@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMDReader 2026.8.5\n"
+"Project-Id-Version: CMDReader 2026.8.8\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-08-11 09:28+0700\n"
+"POT-Creation-Date: 2026-08-19 09:26+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Japanese\n"
@@ -12,49 +12,66 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: DevOn Addon\n"
 
-#: __init__.py:463
+#: cmdCore.py:467
 msgid "Bottom"
-msgstr "最下部"
+msgstr "一番下"
 
-#: __init__.py:61
+#: cmdCore.py:59
+#: cmdCore.py:87
 msgid "CMDReader"
 msgstr "CMDReader"
 
-#: __init__.py:397
+#: cmdCore.py:401
 msgid "Command Finished"
 msgstr "コマンドが終了しました"
 
-#: __init__.py:491
+#: cmdCore.py:75
+msgid "Error keywords (comma separated):"
+msgstr "エラーキーワード（カンマ区切り）："
+
+#: cmdCore.py:499
 msgid "Log file not found"
 msgstr "ログファイルが見つかりません"
 
-#: __init__.py:437
-#: __init__.py:457
-msgid "No history available"
-msgstr "履歴がありません"
+#: cmdCore.py:480
+msgid "Logging is disabled in Strict Privacy Mode"
+msgstr "厳格なプライバシーモードではログ記録が無効になっています"
 
-#: __init__.py:432
-#: __init__.py:452
-#: __init__.py:472
+#: cmdCore.py:441
+#: cmdCore.py:461
+msgid "No history available"
+msgstr "利用可能な履歴がありません"
+
+#: cmdCore.py:436
+#: cmdCore.py:456
+#: cmdCore.py:476
 msgid "Not in Command Prompt"
 msgstr "コマンドプロンプト内ではありません"
 
-#: __init__.py:466
+#: cmdCore.py:470
 msgid "Open CMDReader Log File in Text Editor"
-msgstr "テキストエディタでCMDReaderのログファイルを開く"
+msgstr "テキストエディタで CMDReader のログファイルを開く"
 
-#: __init__.py:488
+#: cmdCore.py:496
 msgid "Opening CMDReader log"
-msgstr "CMDReaderのログを開いています"
+msgstr "CMDReader のログを開いています"
 
-#: __init__.py:446
+#: cmdCore.py:70
+msgid "Play indicator sounds (Ready, Finished, Error)"
+msgstr "インジケーター音を再生する（準備完了、終了、エラー）"
+
+#: cmdCore.py:450
 msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
-msgstr "シャドウスクロールダウン: CMDの履歴行を読み上げます (Control+Alt+Down)"
+msgstr "シャドウ下スクロール：CMDの履歴行を読み上げる (Control+Alt+Down)"
 
-#: __init__.py:426
+#: cmdCore.py:430
 msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
-msgstr "シャドウスクロールアップ: CMDの履歴行を読み上げます (Control+Alt+Up)"
+msgstr "シャドウ上スクロール：CMDの履歴行を読み上げる (Control+Alt+Up)"
 
-#: __init__.py:443
+#: cmdCore.py:65
+msgid "Strict Privacy Mode (Disable writing logs to disk)"
+msgstr "厳格なプライバシーモード（ディスクへのログ書き込みを無効化）"
+
+#: cmdCore.py:447
 msgid "Top"
-msgstr "最上部"
+msgstr "一番上"

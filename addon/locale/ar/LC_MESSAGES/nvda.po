@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMDReader 2026.8.5\n"
+"Project-Id-Version: CMDReader 2026.8.8\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-08-11 09:28+0700\n"
+"POT-Creation-Date: 2026-08-19 09:26+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Arabic\n"
@@ -12,49 +12,66 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: DevOn Addon\n"
 
-#: __init__.py:463
+#: cmdCore.py:467
 msgid "Bottom"
 msgstr "أسفل"
 
-#: __init__.py:61
+#: cmdCore.py:59
+#: cmdCore.py:87
 msgid "CMDReader"
-msgstr "CMDReader"
+msgstr "قاريء الأوامر CMDReader"
 
-#: __init__.py:397
+#: cmdCore.py:401
 msgid "Command Finished"
 msgstr "انتهى الأمر"
 
-#: __init__.py:491
+#: cmdCore.py:75
+msgid "Error keywords (comma separated):"
+msgstr "كلمات مفتاحية للخطأ (مفصولة بفواصل):"
+
+#: cmdCore.py:499
 msgid "Log file not found"
 msgstr "لم يتم العثور على ملف السجل"
 
-#: __init__.py:437
-#: __init__.py:457
+#: cmdCore.py:480
+msgid "Logging is disabled in Strict Privacy Mode"
+msgstr "تم تعطيل التسجيل في وضع الخصوصية الصارمة"
+
+#: cmdCore.py:441
+#: cmdCore.py:461
 msgid "No history available"
 msgstr "لا يوجد سجل متاح"
 
-#: __init__.py:432
-#: __init__.py:452
-#: __init__.py:472
+#: cmdCore.py:436
+#: cmdCore.py:456
+#: cmdCore.py:476
 msgid "Not in Command Prompt"
 msgstr "لست في موجه الأوامر"
 
-#: __init__.py:466
+#: cmdCore.py:470
 msgid "Open CMDReader Log File in Text Editor"
 msgstr "فتح ملف سجل CMDReader في محرر النصوص"
 
-#: __init__.py:488
+#: cmdCore.py:496
 msgid "Opening CMDReader log"
 msgstr "جاري فتح سجل CMDReader"
 
-#: __init__.py:446
+#: cmdCore.py:70
+msgid "Play indicator sounds (Ready, Finished, Error)"
+msgstr "تشغيل أصوات المؤشرات (جاهز، انتهى، خطأ)"
+
+#: cmdCore.py:450
 msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
-msgstr "التمرير الظلي لأسفل: يقرأ أسطر سجل CMD (Control+Alt+Down)"
+msgstr "التمرير السفلي الخفي: قراءة أسطر سجل موجه الأوامر (Control+Alt+Down)"
 
-#: __init__.py:426
+#: cmdCore.py:430
 msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
-msgstr "التمرير الظلي لأعلى: يقرأ أسطر سجل CMD (Control+Alt+Up)"
+msgstr "التمرير العلوي الخفي: قراءة أسطر سجل موجه الأوامر (Control+Alt+Up)"
 
-#: __init__.py:443
+#: cmdCore.py:65
+msgid "Strict Privacy Mode (Disable writing logs to disk)"
+msgstr "وضع الخصوصية الصارمة (تعطيل كتابة السجلات على القرص)"
+
+#: cmdCore.py:447
 msgid "Top"
 msgstr "أعلى"

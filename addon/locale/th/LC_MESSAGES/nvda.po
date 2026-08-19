@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMDReader 2026.8.5\n"
+"Project-Id-Version: CMDReader 2026.8.8\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-08-11 09:28+0700\n"
+"POT-Creation-Date: 2026-08-19 09:26+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Thai\n"
@@ -12,49 +12,66 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: DevOn Addon\n"
 
-#: __init__.py:463
+#: cmdCore.py:467
 msgid "Bottom"
-msgstr "ด้านล่าง"
+msgstr "ด้านล่างสุด"
 
-#: __init__.py:61
+#: cmdCore.py:59
+#: cmdCore.py:87
 msgid "CMDReader"
 msgstr "CMDReader"
 
-#: __init__.py:397
+#: cmdCore.py:401
 msgid "Command Finished"
-msgstr "คำสั่งเสร็จสิ้น"
+msgstr "คำสั่งทำงานเสร็จสิ้นแล้ว"
 
-#: __init__.py:491
+#: cmdCore.py:75
+msgid "Error keywords (comma separated):"
+msgstr "คำสำคัญของข้อผิดพลาด (คั่นด้วยจุลภาค):"
+
+#: cmdCore.py:499
 msgid "Log file not found"
-msgstr "ไม่พบไฟล์บันทึก"
+msgstr "ไม่พบไฟล์บันทึก (Log)"
 
-#: __init__.py:437
-#: __init__.py:457
+#: cmdCore.py:480
+msgid "Logging is disabled in Strict Privacy Mode"
+msgstr "การบันทึก Log ถูกปิดใช้งานในโหมดความเป็นส่วนตัวเข้มงวด"
+
+#: cmdCore.py:441
+#: cmdCore.py:461
 msgid "No history available"
-msgstr "ไม่มีประวัติ"
+msgstr "ไม่มีประวัติการทำงาน"
 
-#: __init__.py:432
-#: __init__.py:452
-#: __init__.py:472
+#: cmdCore.py:436
+#: cmdCore.py:456
+#: cmdCore.py:476
 msgid "Not in Command Prompt"
-msgstr "ไม่อยู่ใน Command Prompt"
+msgstr "ไม่ได้อยู่ในหน้าต่าง Command Prompt"
 
-#: __init__.py:466
+#: cmdCore.py:470
 msgid "Open CMDReader Log File in Text Editor"
-msgstr "เปิดไฟล์บันทึก CMDReader ในโปรแกรมแก้ไขข้อความ"
+msgstr "เปิดไฟล์ Log ของ CMDReader ในโปรแกรมแก้ไขข้อความ"
 
-#: __init__.py:488
+#: cmdCore.py:496
 msgid "Opening CMDReader log"
-msgstr "กำลังเปิดบันทึก CMDReader"
+msgstr "กำลังเปิดไฟล์ Log ของ CMDReader"
 
-#: __init__.py:446
+#: cmdCore.py:70
+msgid "Play indicator sounds (Ready, Finished, Error)"
+msgstr "เล่นเสียงแจ้งสถานะ (พร้อม, เสร็จสิ้น, เกิดข้อผิดพลาด)"
+
+#: cmdCore.py:450
 msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
 msgstr "เลื่อนเงาลง: อ่านบรรทัดประวัติ CMD (Control+Alt+Down)"
 
-#: __init__.py:426
+#: cmdCore.py:430
 msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
 msgstr "เลื่อนเงาขึ้น: อ่านบรรทัดประวัติ CMD (Control+Alt+Up)"
 
-#: __init__.py:443
+#: cmdCore.py:65
+msgid "Strict Privacy Mode (Disable writing logs to disk)"
+msgstr "โหมดความเป็นส่วนตัวเข้มงวด (ปิดใช้งานการเขียน Log ลงดิสก์)"
+
+#: cmdCore.py:447
 msgid "Top"
-msgstr "ด้านบน"
+msgstr "ด้านบนสุด"

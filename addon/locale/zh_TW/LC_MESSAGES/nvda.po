@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMDReader 2026.8.5\n"
+"Project-Id-Version: CMDReader 2026.8.8\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-08-11 09:28+0700\n"
+"POT-Creation-Date: 2026-08-19 09:26+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Chinese (Traditional)\n"
@@ -12,49 +12,66 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: DevOn Addon\n"
 
-#: __init__.py:463
+#: cmdCore.py:467
 msgid "Bottom"
 msgstr "底部"
 
-#: __init__.py:61
+#: cmdCore.py:59
+#: cmdCore.py:87
 msgid "CMDReader"
 msgstr "CMDReader"
 
-#: __init__.py:397
+#: cmdCore.py:401
 msgid "Command Finished"
 msgstr "命令已完成"
 
-#: __init__.py:491
+#: cmdCore.py:75
+msgid "Error keywords (comma separated):"
+msgstr "錯誤關鍵字（逗號分隔）："
+
+#: cmdCore.py:499
 msgid "Log file not found"
 msgstr "找不到記錄檔"
 
-#: __init__.py:437
-#: __init__.py:457
-msgid "No history available"
-msgstr "沒有可用的歷史記錄"
+#: cmdCore.py:480
+msgid "Logging is disabled in Strict Privacy Mode"
+msgstr "嚴格隱私模式已停用記錄功能"
 
-#: __init__.py:432
-#: __init__.py:452
-#: __init__.py:472
+#: cmdCore.py:441
+#: cmdCore.py:461
+msgid "No history available"
+msgstr "無可用歷史紀錄"
+
+#: cmdCore.py:436
+#: cmdCore.py:456
+#: cmdCore.py:476
 msgid "Not in Command Prompt"
 msgstr "不在命令提示字元中"
 
-#: __init__.py:466
+#: cmdCore.py:470
 msgid "Open CMDReader Log File in Text Editor"
 msgstr "在文字編輯器中開啟 CMDReader 記錄檔"
 
-#: __init__.py:488
+#: cmdCore.py:496
 msgid "Opening CMDReader log"
-msgstr "正在開啟 CMDReader 記錄"
+msgstr "正在開啟 CMDReader 記錄檔"
 
-#: __init__.py:446
+#: cmdCore.py:70
+msgid "Play indicator sounds (Ready, Finished, Error)"
+msgstr "播放提示音（就緒、完成、錯誤）"
+
+#: cmdCore.py:450
 msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
-msgstr "陰影向下捲動：讀取 CMD 歷史行 (Control+Alt+Down)"
+msgstr "影子向下捲動：讀取 CMD 歷史行 (Control+Alt+Down)"
 
-#: __init__.py:426
+#: cmdCore.py:430
 msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
-msgstr "陰影向上捲動：讀取 CMD 歷史行 (Control+Alt+Up)"
+msgstr "影子向上捲動：讀取 CMD 歷史行 (Control+Alt+Up)"
 
-#: __init__.py:443
+#: cmdCore.py:65
+msgid "Strict Privacy Mode (Disable writing logs to disk)"
+msgstr "嚴格隱私模式（停用將記錄寫入磁碟）"
+
+#: cmdCore.py:447
 msgid "Top"
 msgstr "頂部"

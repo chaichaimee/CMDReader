@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMDReader 2026.8.5\n"
+"Project-Id-Version: CMDReader 2026.8.8\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-08-11 09:28+0700\n"
+"POT-Creation-Date: 2026-08-19 09:26+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Portuguese (Brazil)\n"
@@ -12,49 +12,66 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: DevOn Addon\n"
 
-#: __init__.py:463
+#: cmdCore.py:467
 msgid "Bottom"
 msgstr "Fim"
 
-#: __init__.py:61
+#: cmdCore.py:59
+#: cmdCore.py:87
 msgid "CMDReader"
 msgstr "CMDReader"
 
-#: __init__.py:397
+#: cmdCore.py:401
 msgid "Command Finished"
 msgstr "Comando concluído"
 
-#: __init__.py:491
+#: cmdCore.py:75
+msgid "Error keywords (comma separated):"
+msgstr "Palavras-chave de erro (separadas por vírgula):"
+
+#: cmdCore.py:499
 msgid "Log file not found"
 msgstr "Arquivo de log não encontrado"
 
-#: __init__.py:437
-#: __init__.py:457
+#: cmdCore.py:480
+msgid "Logging is disabled in Strict Privacy Mode"
+msgstr "O registro em log está desativado no Modo de Privacidade Rigorosa"
+
+#: cmdCore.py:441
+#: cmdCore.py:461
 msgid "No history available"
 msgstr "Nenhum histórico disponível"
 
-#: __init__.py:432
-#: __init__.py:452
-#: __init__.py:472
+#: cmdCore.py:436
+#: cmdCore.py:456
+#: cmdCore.py:476
 msgid "Not in Command Prompt"
 msgstr "Não está no Prompt de Comando"
 
-#: __init__.py:466
+#: cmdCore.py:470
 msgid "Open CMDReader Log File in Text Editor"
 msgstr "Abrir arquivo de log do CMDReader no editor de texto"
 
-#: __init__.py:488
+#: cmdCore.py:496
 msgid "Opening CMDReader log"
 msgstr "Abrindo log do CMDReader"
 
-#: __init__.py:446
+#: cmdCore.py:70
+msgid "Play indicator sounds (Ready, Finished, Error)"
+msgstr "Reproduzir sons indicadores (Pronto, Concluído, Erro)"
+
+#: cmdCore.py:450
 msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
-msgstr "Rolagem sombra para baixo: Lê linhas do histórico do CMD (Control+Alt+Down)"
+msgstr "Rolagem Oculta para Baixo: Lê linhas do histórico do CMD (Control+Alt+Down)"
 
-#: __init__.py:426
+#: cmdCore.py:430
 msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
-msgstr "Rolagem sombra para cima: Lê linhas do histórico do CMD (Control+Alt+Up)"
+msgstr "Rolagem Oculta para Cima: Lê linhas do histórico do CMD (Control+Alt+Up)"
 
-#: __init__.py:443
+#: cmdCore.py:65
+msgid "Strict Privacy Mode (Disable writing logs to disk)"
+msgstr "Modo de Privacidade Rigorosa (Desativar gravação de logs no disco)"
+
+#: cmdCore.py:447
 msgid "Top"
 msgstr "Início"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMDReader 2026.8.5\n"
+"Project-Id-Version: CMDReader 2026.8.8\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-08-11 09:28+0700\n"
+"POT-Creation-Date: 2026-08-19 09:26+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: German\n"
@@ -12,49 +12,66 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: DevOn Addon\n"
 
-#: __init__.py:463
+#: cmdCore.py:467
 msgid "Bottom"
 msgstr "Unten"
 
-#: __init__.py:61
+#: cmdCore.py:59
+#: cmdCore.py:87
 msgid "CMDReader"
 msgstr "CMDReader"
 
-#: __init__.py:397
+#: cmdCore.py:401
 msgid "Command Finished"
 msgstr "Befehl beendet"
 
-#: __init__.py:491
+#: cmdCore.py:75
+msgid "Error keywords (comma separated):"
+msgstr "Fehlerschlüsselwörter (kommagetrennt):"
+
+#: cmdCore.py:499
 msgid "Log file not found"
 msgstr "Protokolldatei nicht gefunden"
 
-#: __init__.py:437
-#: __init__.py:457
+#: cmdCore.py:480
+msgid "Logging is disabled in Strict Privacy Mode"
+msgstr "Protokollierung ist im strikten Modus deaktiviert"
+
+#: cmdCore.py:441
+#: cmdCore.py:461
 msgid "No history available"
 msgstr "Kein Verlauf verfügbar"
 
-#: __init__.py:432
-#: __init__.py:452
-#: __init__.py:472
+#: cmdCore.py:436
+#: cmdCore.py:456
+#: cmdCore.py:476
 msgid "Not in Command Prompt"
 msgstr "Nicht in der Eingabeaufforderung"
 
-#: __init__.py:466
+#: cmdCore.py:470
 msgid "Open CMDReader Log File in Text Editor"
 msgstr "CMDReader-Protokolldatei im Texteditor öffnen"
 
-#: __init__.py:488
+#: cmdCore.py:496
 msgid "Opening CMDReader log"
-msgstr "CMDReader-Protokoll wird geöffnet"
+msgstr "Öffne CMDReader-Protokoll"
 
-#: __init__.py:446
+#: cmdCore.py:70
+msgid "Play indicator sounds (Ready, Finished, Error)"
+msgstr "Indikatortöne wiedergeben (Bereit, Fertig, Fehler)"
+
+#: cmdCore.py:450
 msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
-msgstr "Schatten-Bildlauf nach unten: Liest CMD-Verlaufszeilen (Control+Alt+Down)"
+msgstr "Schatten-Bildlauf abwärts: Liest CMD-Verlaufszeilen (Strg+Alt+Abwärts)"
 
-#: __init__.py:426
+#: cmdCore.py:430
 msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
-msgstr "Schatten-Bildlauf nach oben: Liest CMD-Verlaufszeilen (Control+Alt+Up)"
+msgstr "Schatten-Bildlauf aufwärts: Liest CMD-Verlaufszeilen (Strg+Alt+Aufwärts)"
 
-#: __init__.py:443
+#: cmdCore.py:65
+msgid "Strict Privacy Mode (Disable writing logs to disk)"
+msgstr "Strikter Modus (Schreiben von Protokollen auf Festplatte deaktivieren)"
+
+#: cmdCore.py:447
 msgid "Top"
 msgstr "Oben"
