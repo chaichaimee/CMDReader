@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMDReader 2026.8.8\n"
+"Project-Id-Version: CMDReader 2026.11.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-08-19 09:26+0700\n"
+"POT-Creation-Date: 2026-11-10 16:59+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Japanese\n"
@@ -10,68 +10,82 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: DevOn Addon\n"
+"X-Generator: ChaiBot Addon\n"
 
-#: cmdCore.py:467
+#: cmdCore.py:92
+msgid "Allow line review with the Up and Down arrow keys (single tap of Control+Alt+L toggles it)"
+msgstr "上下矢印キーによる行単位の確認を許可する（Control+Alt+Lの1回押しで切り替え）"
+
+#: cmdCore.py:502
 msgid "Bottom"
 msgstr "一番下"
 
-#: cmdCore.py:59
-#: cmdCore.py:87
+#: cmdCore.py:76
+#: cmdCore.py:116
+# keep-identical
 msgid "CMDReader"
 msgstr "CMDReader"
 
-#: cmdCore.py:401
+#: cmdCore.py:441
 msgid "Command Finished"
 msgstr "コマンドが終了しました"
 
-#: cmdCore.py:75
+#: cmdCore.py:613
+msgid "Could not open CMDReader log"
+msgstr "CMDReaderのログを開けませんでした"
+
+#: cmdCore.py:102
 msgid "Error keywords (comma separated):"
 msgstr "エラーキーワード（カンマ区切り）："
 
-#: cmdCore.py:499
+#: cmdCore.py:567
+msgid "Line review is disabled in settings"
+msgstr "設定で行単位の確認が無効になっています"
+
+#: cmdCore.py:571
+msgid "Line review off"
+msgstr "行単位の確認 オフ"
+
+#: cmdCore.py:577
+msgid "Line review on"
+msgstr "行単位の確認 オン"
+
+#: cmdCore.py:606
 msgid "Log file not found"
 msgstr "ログファイルが見つかりません"
 
-#: cmdCore.py:480
+#: cmdCore.py:587
 msgid "Logging is disabled in Strict Privacy Mode"
 msgstr "厳格なプライバシーモードではログ記録が無効になっています"
 
-#: cmdCore.py:441
-#: cmdCore.py:461
+#: cmdCore.py:493
 msgid "No history available"
 msgstr "利用可能な履歴がありません"
 
-#: cmdCore.py:436
-#: cmdCore.py:456
-#: cmdCore.py:476
+#: cmdCore.py:488
 msgid "Not in Command Prompt"
 msgstr "コマンドプロンプト内ではありません"
 
-#: cmdCore.py:470
-msgid "Open CMDReader Log File in Text Editor"
-msgstr "テキストエディタで CMDReader のログファイルを開く"
-
-#: cmdCore.py:496
+#: cmdCore.py:603
 msgid "Opening CMDReader log"
 msgstr "CMDReader のログを開いています"
 
-#: cmdCore.py:70
+#: cmdCore.py:87
 msgid "Play indicator sounds (Ready, Finished, Error)"
 msgstr "インジケーター音を再生する（準備完了、終了、エラー）"
 
-#: cmdCore.py:450
-msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
-msgstr "シャドウ下スクロール：CMDの履歴行を読み上げる (Control+Alt+Down)"
+#: cmdCore.py:536
+msgid "Single tap: toggle line review (Up and Down arrows read the console output one line at a time). Double tap: open the CMDReader log file. Triple tap: open CMDReader settings"
+msgstr "1回押し: 行単位の確認の切り替え（上下矢印キーでコンソール出力を1行ずつ読み上げます）。2回押し: CMDReaderログファイルを開く。3回押し: CMDReaderの設定を開く"
 
-#: cmdCore.py:430
-msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
-msgstr "シャドウ上スクロール：CMDの履歴行を読み上げる (Control+Alt+Up)"
+#: cmdCore.py:97
+msgid "Start line review automatically when a console window gets focus"
+msgstr "コンソールウィンドウがフォーカスを取得したときに行単位の確認を自動的に開始する"
 
-#: cmdCore.py:65
+#: cmdCore.py:82
 msgid "Strict Privacy Mode (Disable writing logs to disk)"
 msgstr "厳格なプライバシーモード（ディスクへのログ書き込みを無効化）"
 
-#: cmdCore.py:447
+#: cmdCore.py:499
 msgid "Top"
 msgstr "一番上"

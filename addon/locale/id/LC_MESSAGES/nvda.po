@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMDReader 2026.8.8\n"
+"Project-Id-Version: CMDReader 2026.11.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-08-19 09:26+0700\n"
+"POT-Creation-Date: 2026-11-10 16:59+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Indonesian\n"
@@ -10,68 +10,82 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: DevOn Addon\n"
+"X-Generator: ChaiBot Addon\n"
 
-#: cmdCore.py:467
+#: cmdCore.py:92
+msgid "Allow line review with the Up and Down arrow keys (single tap of Control+Alt+L toggles it)"
+msgstr "Izinkan peninjauan baris dengan tombol panah Atas dan Bawah (ketukan tunggal Control+Alt+L untuk beralih)"
+
+#: cmdCore.py:502
 msgid "Bottom"
 msgstr "Bawah"
 
-#: cmdCore.py:59
-#: cmdCore.py:87
+#: cmdCore.py:76
+#: cmdCore.py:116
+# keep-identical
 msgid "CMDReader"
 msgstr "CMDReader"
 
-#: cmdCore.py:401
+#: cmdCore.py:441
 msgid "Command Finished"
 msgstr "Perintah Selesai"
 
-#: cmdCore.py:75
+#: cmdCore.py:613
+msgid "Could not open CMDReader log"
+msgstr "Tidak dapat membuka log CMDReader"
+
+#: cmdCore.py:102
 msgid "Error keywords (comma separated):"
 msgstr "Kata kunci kesalahan (dipisahkan koma):"
 
-#: cmdCore.py:499
+#: cmdCore.py:567
+msgid "Line review is disabled in settings"
+msgstr "Peninjauan baris dinonaktifkan di pengaturan"
+
+#: cmdCore.py:571
+msgid "Line review off"
+msgstr "Peninjauan baris nonaktif"
+
+#: cmdCore.py:577
+msgid "Line review on"
+msgstr "Peninjauan baris aktif"
+
+#: cmdCore.py:606
 msgid "Log file not found"
 msgstr "Berkas log tidak ditemukan"
 
-#: cmdCore.py:480
+#: cmdCore.py:587
 msgid "Logging is disabled in Strict Privacy Mode"
 msgstr "Pencatatan log dinonaktifkan dalam Mode Privasi Ketat"
 
-#: cmdCore.py:441
-#: cmdCore.py:461
+#: cmdCore.py:493
 msgid "No history available"
 msgstr "Tidak ada riwayat tersedia"
 
-#: cmdCore.py:436
-#: cmdCore.py:456
-#: cmdCore.py:476
+#: cmdCore.py:488
 msgid "Not in Command Prompt"
 msgstr "Tidak berada di Command Prompt"
 
-#: cmdCore.py:470
-msgid "Open CMDReader Log File in Text Editor"
-msgstr "Buka Berkas Log CMDReader di Editor Teks"
-
-#: cmdCore.py:496
+#: cmdCore.py:603
 msgid "Opening CMDReader log"
 msgstr "Membuka log CMDReader"
 
-#: cmdCore.py:70
+#: cmdCore.py:87
 msgid "Play indicator sounds (Ready, Finished, Error)"
 msgstr "Putar suara indikator (Siap, Selesai, Kesalahan)"
 
-#: cmdCore.py:450
-msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
-msgstr "Gulir Bayangan Bawah: Membaca baris riwayat CMD (Control+Alt+Bawah)"
+#: cmdCore.py:536
+msgid "Single tap: toggle line review (Up and Down arrows read the console output one line at a time). Double tap: open the CMDReader log file. Triple tap: open CMDReader settings"
+msgstr "Ketukan tunggal: beralih peninjauan baris (panah Atas dan Bawah membaca keluaran konsol satu baris pada satu waktu). Ketukan ganda: buka file log CMDReader. Ketukan tiga kali: buka pengaturan CMDReader"
 
-#: cmdCore.py:430
-msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
-msgstr "Gulir Bayangan Atas: Membaca baris riwayat CMD (Control+Alt+Atas)"
+#: cmdCore.py:97
+msgid "Start line review automatically when a console window gets focus"
+msgstr "Mulai peninjauan baris secara otomatis saat jendela konsol mendapatkan fokus"
 
-#: cmdCore.py:65
+#: cmdCore.py:82
 msgid "Strict Privacy Mode (Disable writing logs to disk)"
 msgstr "Mode Privasi Ketat (Nonaktifkan penulisan log ke disk)"
 
-#: cmdCore.py:447
+#: cmdCore.py:499
 msgid "Top"
 msgstr "Atas"

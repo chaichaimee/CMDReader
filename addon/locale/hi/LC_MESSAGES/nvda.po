@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMDReader 2026.8.8\n"
+"Project-Id-Version: CMDReader 2026.11.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-08-19 09:26+0700\n"
+"POT-Creation-Date: 2026-11-10 16:59+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Hindi\n"
@@ -10,68 +10,81 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: DevOn Addon\n"
+"X-Generator: ChaiBot Addon\n"
 
-#: cmdCore.py:467
+#: cmdCore.py:92
+msgid "Allow line review with the Up and Down arrow keys (single tap of Control+Alt+L toggles it)"
+msgstr "ऊपर और नीचे तीर कुंजियों के साथ लाइन समीक्षा की अनुमति दें (कंट्रोल+ऑल्ट+एल का एक बार टैप इसे टॉगल करता है)"
+
+#: cmdCore.py:502
 msgid "Bottom"
 msgstr "सबसे नीचे"
 
-#: cmdCore.py:59
-#: cmdCore.py:87
+#: cmdCore.py:76
+#: cmdCore.py:116
 msgid "CMDReader"
-msgstr "CMDReader"
+msgstr "सीएमडीरीडर"
 
-#: cmdCore.py:401
+#: cmdCore.py:441
 msgid "Command Finished"
 msgstr "कमांड समाप्त"
 
-#: cmdCore.py:75
+#: cmdCore.py:613
+msgid "Could not open CMDReader log"
+msgstr "सीएमडीरीडर लॉग नहीं खोला जा सका"
+
+#: cmdCore.py:102
 msgid "Error keywords (comma separated):"
 msgstr "त्रुटी कीवर्ड (कोमा द्वारा अलग किए गए):"
 
-#: cmdCore.py:499
+#: cmdCore.py:567
+msgid "Line review is disabled in settings"
+msgstr "सेटिंग्स में लाइन समीक्षा अक्षम है"
+
+#: cmdCore.py:571
+msgid "Line review off"
+msgstr "लाइन समीक्षा बंद"
+
+#: cmdCore.py:577
+msgid "Line review on"
+msgstr "लाइन समीक्षा चालू"
+
+#: cmdCore.py:606
 msgid "Log file not found"
 msgstr "लॉग फ़ाइल नहीं मिली"
 
-#: cmdCore.py:480
+#: cmdCore.py:587
 msgid "Logging is disabled in Strict Privacy Mode"
 msgstr "सख्त गोपनीयता मोड में लॉगिंग अक्षम है"
 
-#: cmdCore.py:441
-#: cmdCore.py:461
+#: cmdCore.py:493
 msgid "No history available"
 msgstr "कोई इतिहास उपलब्ध नहीं है"
 
-#: cmdCore.py:436
-#: cmdCore.py:456
-#: cmdCore.py:476
+#: cmdCore.py:488
 msgid "Not in Command Prompt"
 msgstr "कमांड प्रॉम्प्ट में नहीं हैं"
 
-#: cmdCore.py:470
-msgid "Open CMDReader Log File in Text Editor"
-msgstr "टेक्स्ट एडिटर में CMDReader लॉग फ़ाइल खोलें"
-
-#: cmdCore.py:496
+#: cmdCore.py:603
 msgid "Opening CMDReader log"
 msgstr "CMDReader लॉग खोला जा रहा है"
 
-#: cmdCore.py:70
+#: cmdCore.py:87
 msgid "Play indicator sounds (Ready, Finished, Error)"
 msgstr "संकेतक ध्वनियाँ चलाएं (तैयार, समाप्त, त्रुटि)"
 
-#: cmdCore.py:450
-msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
-msgstr "शैडो स्क्रॉल नीचे: CMD इतिहास पंक्तियाँ पढ़ता है (Control+Alt+Down)"
+#: cmdCore.py:536
+msgid "Single tap: toggle line review (Up and Down arrows read the console output one line at a time). Double tap: open the CMDReader log file. Triple tap: open CMDReader settings"
+msgstr "एकल टैप: लाइन समीक्षा टॉगल करें (ऊपर और नीचे तीर कुंजियाँ कंसोल आउटपुट को एक समय में एक लाइन पढ़ती हैं)। डबल टैप: सीएमडीरीडर लॉग फ़ाइल खोलें। ट्रिपल टैप: सीएमडीरीडर सेटिंग्स खोलें"
 
-#: cmdCore.py:430
-msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
-msgstr "शैडो स्क्रॉल ऊपर: CMD इतिहास पंक्तियाँ पढ़ता है (Control+Alt+Up)"
+#: cmdCore.py:97
+msgid "Start line review automatically when a console window gets focus"
+msgstr "जब किसी कंसोल विंडो को फोकस मिले तो स्वचालित रूप से लाइन समीक्षा शुरू करें"
 
-#: cmdCore.py:65
+#: cmdCore.py:82
 msgid "Strict Privacy Mode (Disable writing logs to disk)"
 msgstr "सख्त गोपनीयता मोड (डिस्क पर लॉग लिखना अक्षम करें)"
 
-#: cmdCore.py:447
+#: cmdCore.py:499
 msgid "Top"
 msgstr "सबसे ऊपर"

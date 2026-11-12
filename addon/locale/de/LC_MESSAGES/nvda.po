@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMDReader 2026.8.8\n"
+"Project-Id-Version: CMDReader 2026.11.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-08-19 09:26+0700\n"
+"POT-Creation-Date: 2026-11-10 16:59+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: German\n"
@@ -10,68 +10,82 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: DevOn Addon\n"
+"X-Generator: ChaiBot Addon\n"
 
-#: cmdCore.py:467
+#: cmdCore.py:92
+msgid "Allow line review with the Up and Down arrow keys (single tap of Control+Alt+L toggles it)"
+msgstr "Zeilenprüfung mit den Pfeiltasten Oben und Unten erlauben (einfaches Drücken von Strg+Alt+L schaltet sie um)"
+
+#: cmdCore.py:502
 msgid "Bottom"
 msgstr "Unten"
 
-#: cmdCore.py:59
-#: cmdCore.py:87
+#: cmdCore.py:76
+#: cmdCore.py:116
+# keep-identical
 msgid "CMDReader"
 msgstr "CMDReader"
 
-#: cmdCore.py:401
+#: cmdCore.py:441
 msgid "Command Finished"
 msgstr "Befehl beendet"
 
-#: cmdCore.py:75
+#: cmdCore.py:613
+msgid "Could not open CMDReader log"
+msgstr "CMDReader-Protokolldatei konnte nicht geöffnet werden"
+
+#: cmdCore.py:102
 msgid "Error keywords (comma separated):"
 msgstr "Fehlerschlüsselwörter (kommagetrennt):"
 
-#: cmdCore.py:499
+#: cmdCore.py:567
+msgid "Line review is disabled in settings"
+msgstr "Die Zeilenprüfung ist in den Einstellungen deaktiviert"
+
+#: cmdCore.py:571
+msgid "Line review off"
+msgstr "Zeilenprüfung aus"
+
+#: cmdCore.py:577
+msgid "Line review on"
+msgstr "Zeilenprüfung ein"
+
+#: cmdCore.py:606
 msgid "Log file not found"
 msgstr "Protokolldatei nicht gefunden"
 
-#: cmdCore.py:480
+#: cmdCore.py:587
 msgid "Logging is disabled in Strict Privacy Mode"
 msgstr "Protokollierung ist im strikten Modus deaktiviert"
 
-#: cmdCore.py:441
-#: cmdCore.py:461
+#: cmdCore.py:493
 msgid "No history available"
 msgstr "Kein Verlauf verfügbar"
 
-#: cmdCore.py:436
-#: cmdCore.py:456
-#: cmdCore.py:476
+#: cmdCore.py:488
 msgid "Not in Command Prompt"
 msgstr "Nicht in der Eingabeaufforderung"
 
-#: cmdCore.py:470
-msgid "Open CMDReader Log File in Text Editor"
-msgstr "CMDReader-Protokolldatei im Texteditor öffnen"
-
-#: cmdCore.py:496
+#: cmdCore.py:603
 msgid "Opening CMDReader log"
 msgstr "Öffne CMDReader-Protokoll"
 
-#: cmdCore.py:70
+#: cmdCore.py:87
 msgid "Play indicator sounds (Ready, Finished, Error)"
 msgstr "Indikatortöne wiedergeben (Bereit, Fertig, Fehler)"
 
-#: cmdCore.py:450
-msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
-msgstr "Schatten-Bildlauf abwärts: Liest CMD-Verlaufszeilen (Strg+Alt+Abwärts)"
+#: cmdCore.py:536
+msgid "Single tap: toggle line review (Up and Down arrows read the console output one line at a time). Double tap: open the CMDReader log file. Triple tap: open CMDReader settings"
+msgstr "Einfaches Antippen: Zeilenprüfung umschalten (Pfeiltasten Oben und Unten lesen die Konsolenausgabe zeilenweise vor). Zweifaches Antippen: CMDReader-Protokolldatei öffnen. Dreifaches Antippen: CMDReader-Einstellungen öffnen"
 
-#: cmdCore.py:430
-msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
-msgstr "Schatten-Bildlauf aufwärts: Liest CMD-Verlaufszeilen (Strg+Alt+Aufwärts)"
+#: cmdCore.py:97
+msgid "Start line review automatically when a console window gets focus"
+msgstr "Zeilenprüfung automatisch starten, wenn ein Konsolenfenster den Fokus erhält"
 
-#: cmdCore.py:65
+#: cmdCore.py:82
 msgid "Strict Privacy Mode (Disable writing logs to disk)"
 msgstr "Strikter Modus (Schreiben von Protokollen auf Festplatte deaktivieren)"
 
-#: cmdCore.py:447
+#: cmdCore.py:499
 msgid "Top"
 msgstr "Oben"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMDReader 2026.8.8\n"
+"Project-Id-Version: CMDReader 2026.11.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-08-19 09:26+0700\n"
+"POT-Creation-Date: 2026-11-10 16:59+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Chinese (Traditional)\n"
@@ -10,68 +10,82 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: DevOn Addon\n"
+"X-Generator: ChaiBot Addon\n"
 
-#: cmdCore.py:467
+#: cmdCore.py:92
+msgid "Allow line review with the Up and Down arrow keys (single tap of Control+Alt+L toggles it)"
+msgstr "允許使用上與下方向鍵進行行檢視 (按一下 Control+Alt+L 切換)"
+
+#: cmdCore.py:502
 msgid "Bottom"
 msgstr "底部"
 
-#: cmdCore.py:59
-#: cmdCore.py:87
+#: cmdCore.py:76
+#: cmdCore.py:116
+# keep-identical
 msgid "CMDReader"
 msgstr "CMDReader"
 
-#: cmdCore.py:401
+#: cmdCore.py:441
 msgid "Command Finished"
 msgstr "命令已完成"
 
-#: cmdCore.py:75
+#: cmdCore.py:613
+msgid "Could not open CMDReader log"
+msgstr "無法開啟 CMDReader 記錄檔"
+
+#: cmdCore.py:102
 msgid "Error keywords (comma separated):"
 msgstr "錯誤關鍵字（逗號分隔）："
 
-#: cmdCore.py:499
+#: cmdCore.py:567
+msgid "Line review is disabled in settings"
+msgstr "佈景主題設定已停用行檢視"
+
+#: cmdCore.py:571
+msgid "Line review off"
+msgstr "行檢視已關閉"
+
+#: cmdCore.py:577
+msgid "Line review on"
+msgstr "行檢視已開啟"
+
+#: cmdCore.py:606
 msgid "Log file not found"
 msgstr "找不到記錄檔"
 
-#: cmdCore.py:480
+#: cmdCore.py:587
 msgid "Logging is disabled in Strict Privacy Mode"
 msgstr "嚴格隱私模式已停用記錄功能"
 
-#: cmdCore.py:441
-#: cmdCore.py:461
+#: cmdCore.py:493
 msgid "No history available"
 msgstr "無可用歷史紀錄"
 
-#: cmdCore.py:436
-#: cmdCore.py:456
-#: cmdCore.py:476
+#: cmdCore.py:488
 msgid "Not in Command Prompt"
 msgstr "不在命令提示字元中"
 
-#: cmdCore.py:470
-msgid "Open CMDReader Log File in Text Editor"
-msgstr "在文字編輯器中開啟 CMDReader 記錄檔"
-
-#: cmdCore.py:496
+#: cmdCore.py:603
 msgid "Opening CMDReader log"
 msgstr "正在開啟 CMDReader 記錄檔"
 
-#: cmdCore.py:70
+#: cmdCore.py:87
 msgid "Play indicator sounds (Ready, Finished, Error)"
 msgstr "播放提示音（就緒、完成、錯誤）"
 
-#: cmdCore.py:450
-msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
-msgstr "影子向下捲動：讀取 CMD 歷史行 (Control+Alt+Down)"
+#: cmdCore.py:536
+msgid "Single tap: toggle line review (Up and Down arrows read the console output one line at a time). Double tap: open the CMDReader log file. Triple tap: open CMDReader settings"
+msgstr "按一下：切換行檢視 (使用上與下方向鍵逐行讀取主控台輸出)。按兩下：開啟 CMDReader 記錄檔。按三下：開啟 CMDReader 設定"
 
-#: cmdCore.py:430
-msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
-msgstr "影子向上捲動：讀取 CMD 歷史行 (Control+Alt+Up)"
+#: cmdCore.py:97
+msgid "Start line review automatically when a console window gets focus"
+msgstr "當主控台視窗取得焦點時自動開始行檢視"
 
-#: cmdCore.py:65
+#: cmdCore.py:82
 msgid "Strict Privacy Mode (Disable writing logs to disk)"
 msgstr "嚴格隱私模式（停用將記錄寫入磁碟）"
 
-#: cmdCore.py:447
+#: cmdCore.py:499
 msgid "Top"
 msgstr "頂部"

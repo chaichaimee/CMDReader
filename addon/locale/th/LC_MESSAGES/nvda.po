@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMDReader 2026.8.8\n"
+"Project-Id-Version: CMDReader 2026.11.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-08-19 09:26+0700\n"
+"POT-Creation-Date: 2026-11-10 16:59+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Thai\n"
@@ -10,68 +10,82 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: DevOn Addon\n"
+"X-Generator: ChaiBot Addon\n"
 
-#: cmdCore.py:467
+#: cmdCore.py:92
+msgid "Allow line review with the Up and Down arrow keys (single tap of Control+Alt+L toggles it)"
+msgstr "อนุญาตให้ทบทวนบรรทัดด้วยปุ่มลูกศรขึ้นและลง (กด Control+Alt+L หนึ่งครั้งเพื่อสลับสถานะ)"
+
+#: cmdCore.py:502
 msgid "Bottom"
 msgstr "ด้านล่างสุด"
 
-#: cmdCore.py:59
-#: cmdCore.py:87
+#: cmdCore.py:76
+#: cmdCore.py:116
+# keep-identical
 msgid "CMDReader"
 msgstr "CMDReader"
 
-#: cmdCore.py:401
+#: cmdCore.py:441
 msgid "Command Finished"
 msgstr "คำสั่งทำงานเสร็จสิ้นแล้ว"
 
-#: cmdCore.py:75
+#: cmdCore.py:613
+msgid "Could not open CMDReader log"
+msgstr "ไม่สามารถเปิดบันทึกการทำงานของ CMDReader ได้"
+
+#: cmdCore.py:102
 msgid "Error keywords (comma separated):"
 msgstr "คำสำคัญของข้อผิดพลาด (คั่นด้วยจุลภาค):"
 
-#: cmdCore.py:499
+#: cmdCore.py:567
+msgid "Line review is disabled in settings"
+msgstr "การทบทวนบรรทัดถูกปิดใช้งานอยู่ในการตั้งค่า"
+
+#: cmdCore.py:571
+msgid "Line review off"
+msgstr "ปิดการทบทวนบรรทัด"
+
+#: cmdCore.py:577
+msgid "Line review on"
+msgstr "เปิดการทบทวนบรรทัด"
+
+#: cmdCore.py:606
 msgid "Log file not found"
 msgstr "ไม่พบไฟล์บันทึก (Log)"
 
-#: cmdCore.py:480
+#: cmdCore.py:587
 msgid "Logging is disabled in Strict Privacy Mode"
 msgstr "การบันทึก Log ถูกปิดใช้งานในโหมดความเป็นส่วนตัวเข้มงวด"
 
-#: cmdCore.py:441
-#: cmdCore.py:461
+#: cmdCore.py:493
 msgid "No history available"
 msgstr "ไม่มีประวัติการทำงาน"
 
-#: cmdCore.py:436
-#: cmdCore.py:456
-#: cmdCore.py:476
+#: cmdCore.py:488
 msgid "Not in Command Prompt"
 msgstr "ไม่ได้อยู่ในหน้าต่าง Command Prompt"
 
-#: cmdCore.py:470
-msgid "Open CMDReader Log File in Text Editor"
-msgstr "เปิดไฟล์ Log ของ CMDReader ในโปรแกรมแก้ไขข้อความ"
-
-#: cmdCore.py:496
+#: cmdCore.py:603
 msgid "Opening CMDReader log"
 msgstr "กำลังเปิดไฟล์ Log ของ CMDReader"
 
-#: cmdCore.py:70
+#: cmdCore.py:87
 msgid "Play indicator sounds (Ready, Finished, Error)"
 msgstr "เล่นเสียงแจ้งสถานะ (พร้อม, เสร็จสิ้น, เกิดข้อผิดพลาด)"
 
-#: cmdCore.py:450
-msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
-msgstr "เลื่อนเงาลง: อ่านบรรทัดประวัติ CMD (Control+Alt+Down)"
+#: cmdCore.py:536
+msgid "Single tap: toggle line review (Up and Down arrows read the console output one line at a time). Double tap: open the CMDReader log file. Triple tap: open CMDReader settings"
+msgstr "กดครั้งเดียว: สลับการทบทวนบรรทัด (ลูกศรขึ้นและลงอ่านผลลัพธ์คอนโซลทีละบรรทัด) กดสองครั้ง: เปิดไฟล์บันทึกการทำงานของ CMDReader กดสามครั้ง: เปิดการตั้งค่า CMDReader"
 
-#: cmdCore.py:430
-msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
-msgstr "เลื่อนเงาขึ้น: อ่านบรรทัดประวัติ CMD (Control+Alt+Up)"
+#: cmdCore.py:97
+msgid "Start line review automatically when a console window gets focus"
+msgstr "เริ่มทบทวนบรรทัดโดยอัตโนมัติเมื่อหน้าต่างคอนโซลได้รับโฟกัส"
 
-#: cmdCore.py:65
+#: cmdCore.py:82
 msgid "Strict Privacy Mode (Disable writing logs to disk)"
 msgstr "โหมดความเป็นส่วนตัวเข้มงวด (ปิดใช้งานการเขียน Log ลงดิสก์)"
 
-#: cmdCore.py:447
+#: cmdCore.py:499
 msgid "Top"
 msgstr "ด้านบนสุด"

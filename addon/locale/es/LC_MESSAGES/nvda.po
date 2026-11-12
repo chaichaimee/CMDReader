@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMDReader 2026.8.8\n"
+"Project-Id-Version: CMDReader 2026.11.0\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-08-19 09:26+0700\n"
+"POT-Creation-Date: 2026-11-10 16:59+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Spanish\n"
@@ -10,68 +10,82 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: DevOn Addon\n"
+"X-Generator: ChaiBot Addon\n"
 
-#: cmdCore.py:467
+#: cmdCore.py:92
+msgid "Allow line review with the Up and Down arrow keys (single tap of Control+Alt+L toggles it)"
+msgstr "Permitir la revisión de líneas con las teclas de flecha Arriba y Abajo (un toque de Control+Alt+L lo activa o desactiva)"
+
+#: cmdCore.py:502
 msgid "Bottom"
 msgstr "Inferior"
 
-#: cmdCore.py:59
-#: cmdCore.py:87
+#: cmdCore.py:76
+#: cmdCore.py:116
+# keep-identical
 msgid "CMDReader"
 msgstr "CMDReader"
 
-#: cmdCore.py:401
+#: cmdCore.py:441
 msgid "Command Finished"
 msgstr "Comando finalizado"
 
-#: cmdCore.py:75
+#: cmdCore.py:613
+msgid "Could not open CMDReader log"
+msgstr "No se pudo abrir el registro de CMDReader"
+
+#: cmdCore.py:102
 msgid "Error keywords (comma separated):"
 msgstr "Palabras clave de error (separadas por comas):"
 
-#: cmdCore.py:499
+#: cmdCore.py:567
+msgid "Line review is disabled in settings"
+msgstr "La revisión de líneas está desactivada en la configuración"
+
+#: cmdCore.py:571
+msgid "Line review off"
+msgstr "Revisión de líneas desactivada"
+
+#: cmdCore.py:577
+msgid "Line review on"
+msgstr "Revisión de líneas activada"
+
+#: cmdCore.py:606
 msgid "Log file not found"
 msgstr "Archivo de registro no encontrado"
 
-#: cmdCore.py:480
+#: cmdCore.py:587
 msgid "Logging is disabled in Strict Privacy Mode"
 msgstr "El registro está desactivado en el modo de privacidad estricta"
 
-#: cmdCore.py:441
-#: cmdCore.py:461
+#: cmdCore.py:493
 msgid "No history available"
 msgstr "No hay historial disponible"
 
-#: cmdCore.py:436
-#: cmdCore.py:456
-#: cmdCore.py:476
+#: cmdCore.py:488
 msgid "Not in Command Prompt"
 msgstr "No se encuentra en el Símbolo del sistema"
 
-#: cmdCore.py:470
-msgid "Open CMDReader Log File in Text Editor"
-msgstr "Abrir archivo de registro de CMDReader en el editor de texto"
-
-#: cmdCore.py:496
+#: cmdCore.py:603
 msgid "Opening CMDReader log"
 msgstr "Abriendo registro de CMDReader"
 
-#: cmdCore.py:70
+#: cmdCore.py:87
 msgid "Play indicator sounds (Ready, Finished, Error)"
 msgstr "Reproducir sonidos indicadores (Listo, Finalizado, Error)"
 
-#: cmdCore.py:450
-msgid "Shadow Scroll Down: Reads CMD history lines (Control+Alt+Down)"
-msgstr "Desplazamiento fantasma hacia abajo: Lee líneas del historial de CMD (Control+Alt+Abajo)"
+#: cmdCore.py:536
+msgid "Single tap: toggle line review (Up and Down arrows read the console output one line at a time). Double tap: open the CMDReader log file. Triple tap: open CMDReader settings"
+msgstr "Un toque: alternar la revisión de líneas (las flechas Arriba y Abajo leen la salida de la consola línea por línea). Dos toques: abrir el archivo de registro de CMDReader. Tres toques: abrir la configuración de CMDReader"
 
-#: cmdCore.py:430
-msgid "Shadow Scroll Up: Reads CMD history lines (Control+Alt+Up)"
-msgstr "Desplazamiento fantasma hacia arriba: Lee líneas del historial de CMD (Control+Alt+Arriba)"
+#: cmdCore.py:97
+msgid "Start line review automatically when a console window gets focus"
+msgstr "Iniciar la revisión de líneas automáticamente cuando una ventana de consola obtenga el foco"
 
-#: cmdCore.py:65
+#: cmdCore.py:82
 msgid "Strict Privacy Mode (Disable writing logs to disk)"
 msgstr "Modo de privacidad estricta (Desactivar escritura de registros en disco)"
 
-#: cmdCore.py:447
+#: cmdCore.py:499
 msgid "Top"
 msgstr "Superior"
