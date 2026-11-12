@@ -1,137 +1,138 @@
-<div align="center">
-
-<img src="https://www.nvaccess.org/wp-content/uploads/2015/10/NVDA_logo_standard_transparent.png" alt="NVDA Logo" width="200">
+![NVDA Logo](https://www.nvaccess.org/files/nvda/documentation/userGuide/images/nvda.ico)
 
 # CMDReader
 
-*Command Line Accessibility, Redefined.*
+Hear every line your terminal prints, the moment it appears.
 
-<br>
+**author:** chai chaimee
 
-**Author:** chai chaimee  
-**URL:** [github.com/chaichaimee/CMDReader](https://github.com/chaichaimee/CMDReader)
+**url:** https://github.com/chaichaimee/CMDReader
 
-</div>
+## Introduction
 
----
+CMDReader makes working in the terminal fast and comfortable. It automatically reads new output aloud in Command Prompt, PowerShell, and Windows Terminal as soon as it appears, so you never have to hunt through the window to find out what a command printed.
 
-<br>
+It also tells you when a command has finished, warns you with a distinct sound when an error appears, and lets you step back through the console output one line at a time with the Up and Down arrow keys. A dedicated settings panel lets you control sounds, privacy, and the words that count as errors.
 
-CMDReader is an NVDA add‑on that automatically speaks every new line that appears in Command Prompt, PowerShell, or Windows Terminal windows. It transforms the command line into a fully audible experience: new output is read aloud as it arrives, distinct beeps tell you when the terminal is ready, when a command finishes, or when an error occurs, and you can scroll back through the spoken history using simple keyboard shortcuts. Beyond real‑time speech, CMDReader provides seamless in-session shadow history and highly customizable privacy settings directly within NVDA, ensuring your console data is strictly managed and securely wiped when you are done.
+## Hot Keys
 
-<br><br>
+**Control+Alt+L**
+
+- Single Tap : Toggle line review (Up and Down arrows read the console output one line at a time)
+- Double Tap : Open the CMDReader log file
+- Triple Tap : Open CMDReader settings
+
+This hotkey works only while a console window is focused. In any other application the keystroke is passed through unchanged.
 
 ## Features
 
-CMDReader is packed with practical tools designed specifically for blind and low‑vision command‑line users. Here is a complete tour of what it offers:
+### Supported Terminals
 
-### Automatic Speech of New Console Output
+CMDReader works in Command Prompt, PowerShell (including PowerShell 7), and Windows Terminal.
 
-Whenever a new line appears in the focused terminal, CMDReader speaks it immediately. You do not need to move the review cursor, press a screen‑read command, or do anything manually—the add‑on works silently in the background and reads the output as it is generated. It intelligently skips empty lines, prompt lines (such as `C:\>` or `PS C:\>`), and visual separators like dashed lines, so you hear only the meaningful content. This keeps you continuously informed without flooding you with noise.
+### Real-Time Output Reading
 
-### Customizable Settings via NVDA GUI
+Whenever new lines appear in the console, CMDReader speaks them automatically. The text that was already on the screen when you opened or switched to the window is treated as a starting point and is not read again, so you only hear what is new.
 
-CMDReader integrates directly into the NVDA preferences menu. Navigate to **NVDA Menu > Preferences > Settings > CMDReader** to fully tailor the add-on to your workflow:
+Example: you type *ping localhost* and press Enter. Each result line is spoken as it is printed.
 
-* **Strict Privacy Mode:** When enabled, this completely disables the writing of session logs (.txt files) to your hard drive. All terminal history is kept strictly in-memory (RAM) and vanishes the moment you close NVDA. This is perfect for system administrators handling highly sensitive SSH connections or private server data.
-* **Audio Indicator Toggles:** Choose whether to enable or disable the distinct background beeps (Window Ready, Command Finished, and Error detected).
-* **Customizable Error Keywords:** You can edit the comma-separated list of words that trigger the error alert. Add specific compiler errors, framework exceptions, or custom script outputs to instantly catch exactly what you are looking for.
+Blank lines and decorative separator lines made of characters such as = - _ * # are skipped, and the command prompt line itself is not read out as output.
 
-### Distinct Audio Notifications
+### Sound and Voice Alerts
 
-If enabled in settings, three different beep tones give you critical state information at a glance (or rather, a listen):
+CMDReader uses three short sounds to keep you informed without extra speech:
 
-* **Window Ready Tone** (600 Hz, 80 ms) — Played when you first focus a terminal and CMDReader has finished capturing the existing screen content. This tells you that the add‑on is active and ready.
-* **Command Finished Tone** (800 Hz, 100 ms) — Played whenever the prompt reappears after a command, indicating completion. This is invaluable when running long processes.
-* **Error Tone** (440 Hz, 100 ms) — Played when CMDReader detects your specified error keywords in the output. This immediate audible alert lets you stop and investigate as soon as something goes wrong.
+- **Window Ready** : a beep that plays once the console has been prepared and CMDReader has started watching it.
+- **Command Finished** : when output has been printed and the prompt returns, NVDA says "Command Finished" and a beep plays.
+- **Command Error** : a lower beep plays after a line that contains one of your error keywords has been read.
 
-### Shadow History Scrolling (Control+Alt+Up/Down)
+All three beeps can be switched off together with the sound option in settings. The spoken "Command Finished" message stays active.
 
-One of the most powerful features is the ability to review previously spoken lines from your current session without having to re‑run commands or use NVDA’s review cursor.
+### Error Detection
 
-* Press **Control+Alt+UpArrow** to move up through the history of lines. Each press reads the previous line aloud.
-* Press **Control+Alt+DownArrow** to move back down toward the most recent output.
-* When you reach the top or bottom, you will hear a message saying *"Top"* or *"Bottom"*.
+Every new line is compared, ignoring upper and lower case, with a list of error keywords. When a match is found, the line is read and the error beep sounds.
 
-### Strict In-Memory Security & Aggressive Cleanup
+The default keywords are: is not recognized as an internal or external command, is not recognized as the name of a cmdlet, access denied, access is denied, permission denied, error 404, fatal error, failed to, exception occurred, cannot find path.
 
-Your privacy is paramount. CMDReader stores your shadow scrolling history strictly in your system's RAM (in-memory) during your active session. When you close or restart NVDA, this memory is instantly and permanently wiped. Furthermore, CMDReader performs an aggressive cleanup routine on startup, automatically detecting and deleting any legacy JSON history files (from older add-on versions) or scattered logs, ensuring no sensitive console data is ever left behind on your disk.
+Example: typing a command that does not exist produces "is not recognized as an internal or external command", so you hear the message followed by the error beep.
 
-### Separate Log Files for Each Shell (Optional)
+### Line Review with the Arrow Keys
 
-Unless you have Strict Privacy Mode enabled, CMDReader keeps distinct temporary logs for different terminal types in your NVDA config folder:
+Line review lets you move through everything the console has printed, one line at a time, without touching the console itself.
 
-* **CMDReader_CMD.txt** — for classic Command Prompt sessions.
-* **CMDReader_PowerShell.txt** — for PowerShell and pwsh sessions.
-* **CMDReader_Terminal.txt** — for other terminal windows (such as Git Bash).
+- **Up Arrow** : read the previous line.
+- **Down Arrow** : read the next line.
 
-This separation prevents confusion when you switch between shells frequently. These log files are automatically cleared every time you shut down NVDA.
+When you reach the first line NVDA says "Top", and at the last line it says "Bottom". If nothing has been recorded yet, you hear "No history available".
 
-### Quick Log Access (Control+Alt+L)
+How to use it, step by step:
 
-Pressing **Control+Alt+L** instantly opens the temporary log file corresponding to the currently focused terminal in your default text editor (provided Strict Privacy Mode is disabled). You do not need to browse through folders—CMDReader detects the correct file and opens it for you. This is perfect for copying error messages or performing a detailed manual review.
+1. Focus a Command Prompt, PowerShell, or Windows Terminal window.
+2. Press Control+Alt+L once. NVDA says "Line review on". Reading starts from the last line of the output.
+3. Press Up Arrow to move back through the output, one line per press, and Down Arrow to move forward.
+4. When you want the arrow keys to behave normally again, for example to recall earlier commands, press Control+Alt+L once more. NVDA says "Line review off".
 
-### Intelligent Baseline Stabilization
+Line review is active only inside a console window. When you switch to another application the arrow keys return to normal automatically.
 
-When you first focus a terminal, especially PowerShell, the startup banner may print gradually over a few hundred milliseconds. CMDReader waits for the text to stabilize before capturing the baseline. This ensures that the initial banner is considered "already read" and will not be spoken later, preventing false triggers.
+By default, line review starts automatically each time you move from another application into a console window. This can be changed in settings. If line review is disabled in settings, a single tap announces "Line review is disabled in settings".
 
-<br><br>
+### Log Files
 
-## Benefits
+CMDReader keeps a plain text copy of the current console output so you can open it in your default text editor and read it at your own pace. A separate file is used for each kind of terminal: CMDReader_CMD.txt for Command Prompt, CMDReader_PowerShell.txt for PowerShell, and CMDReader_Terminal.txt for other terminals.
 
-CMDReader is not just a collection of features—it directly improves your daily workflow and overall comfort when working at the command line. Here is how it makes a real difference:
+The log contains the output of your session without the prompt lines and without blank or separator lines. The files are stored in the ChaiChaimee\CMDReader folder inside your NVDA configuration folder, and they are emptied when NVDA starts and when it exits.
 
-* **Dramatically saves time and effort** — Without CMDReader, you would have to manually navigate the screen with NVDA’s review cursor. With automatic speech, you receive the output in real time, allowing you to stay focused on typing.
-* **Reduces keystroke fatigue** — The shadow scrolling gestures (`Ctrl+Alt+Up/Down`) replace dozens of navigational keystrokes. Two simple gestures give you full access to the entire session history.
-* **Catches errors instantly** — The distinct error beep acts as an early warning system. Instead of reading through pages of output to find a failure, you are alerted the moment an error keyword appears.
-* **Improves multitasking and focus** — Because CMDReader speaks output and provides audio cues, you can listen to the terminal while working in other applications. You will know exactly when a long process finishes.
-* **Maximum Privacy Control** — With the strict in-memory architecture and GUI-toggled Strict Privacy Mode, system administrators and developers can work with confidential server data, API keys, and secure connections knowing absolutely nothing is being secretly logged to the hard drive.
-* **Works seamlessly with all Windows terminals** — Whether you use the old console host, Windows Terminal, or even PowerShell ISE, CMDReader adapts to the window class and app name automatically.
+How to open the log, step by step:
 
-<br><br>
+1. Run your commands in the console as usual.
+2. Press Control+Alt+L twice.
+3. NVDA says "Opening CMDReader log" and the file opens in your default application. NVDA keeps working while the file opens.
 
-## Why Use CMDReader?
+If the file does not exist yet you hear "Log file not found".
 
-The core problem CMDReader solves is the inherent silence and static nature of the command‑line interface for screen‑reader users. When you cannot see the screen, the terminal is just a block of text that changes unpredictably. Relying on NVDA’s review cursor is slow and interrupts your flow.
+### Settings Panel
 
-CMDReader changes this paradigm by turning the terminal into an active, audible conversation. New output is spoken as it happens, so you never fall behind. Audio tones give you immediate feedback on system state. The shadow history lets you review past output effortlessly during your active session. All of this is packaged in a lightweight, highly secure add‑on that gives you absolute control over what is read, what beeps, and what is saved.
+Open NVDA settings and choose the CMDReader category, or press Control+Alt+L three times inside a console. The panel contains these options:
 
-For system administrators, developers, and power users who spend hours at the command line, CMDReader is not just a convenience—it is a productivity multiplier. It reduces cognitive load, prevents missed errors, and makes the terminal feel responsive and intuitive.
+- **Strict Privacy Mode (Disable writing logs to disk)** : stops CMDReader from writing any log file.
+- **Play indicator sounds (Ready, Finished, Error)** : turns the three beeps on or off.
+- **Allow line review with the Up and Down arrow keys** : enables or disables line review altogether.
+- **Start line review automatically when a console window gets focus** : controls whether line review turns on by itself when you enter a console.
+- **Error keywords (comma separated)** : the list of phrases that trigger the error beep.
 
-<br><br>
+Changes are applied when you confirm the settings dialog. The command used to open the log and settings can also be reassigned in NVDA's Input Gestures dialog under the CMDReader category.
 
-## Get the Most Out of Your Terminal Today
+### Custom Error Keywords
 
-CMDReader is a free, open‑source NVDA add‑on developed with the input of blind users and accessibility experts. It requires no complicated setup: just install it, and focus any Command Prompt, PowerShell, or Windows Terminal window. The add‑on will automatically start monitoring. Explore the NVDA Settings menu to configure your privacy mode, custom error triggers, and audio alerts.
+You decide which phrases are treated as errors.
 
-The developer, Chai Chaimee, has designed CMDReader with careful attention to real‑world workflows, enterprise-grade security practices, and robust handling of different terminal types. It is regularly maintained and fully compatible with the latest versions of NVDA and Windows.
+1. Press Control+Alt+L three times in a console, or open NVDA settings and select CMDReader.
+2. Go to the "Error keywords (comma separated)" field.
+3. Add, change, or remove phrases, separating each one with a comma. For example: access denied, timed out, build failed
+4. Press OK to save.
 
-Whether you are managing servers, writing code, automating tasks, or simply navigating file systems, CMDReader makes the command line a far more accessible and secure place to work. Download it from the official NVDA add‑on repository, install it, and give your terminal a voice.
+From then on, any new line containing one of your phrases is read and followed by the error beep.
 
-<br><br>
+### Strict Privacy Mode
+
+If you work with sensitive information in the terminal, Strict Privacy Mode makes sure nothing is written to disk.
+
+1. Open NVDA settings and select the CMDReader category.
+2. Check "Strict Privacy Mode (Disable writing logs to disk)".
+3. Press OK.
+
+While this mode is on, CMDReader writes no log files, existing log files are cleared when NVDA starts, and double tapping Control+Alt+L announces "Logging is disabled in Strict Privacy Mode". Reading output aloud and line review continue to work normally.
+
+### Session History in Memory
+
+The history used by line review is kept only in memory while NVDA is running. CMDReader remembers up to 15 console windows at the same time and discards the oldest one beyond that. Older history files from previous versions of the add-on are deleted automatically, and log files are cleared when NVDA exits.
 
 ## Support Me
 
 If this tool has made your life easier, consider fueling the next update with a small donation.
 
-<br>
-
-<div align="center">
-
-<a href="https://buy.stripe.com/dRm9AU1xQ3Ds22N6VK1VK01">
-  <img src="https://img.shields.io/badge/Donate-Support%20Me-blue?style=for-the-badge&logo=stripe" alt="Support me">
-</a>
-
-</div>
-
-<br>
+[![Support me](https://img.shields.io/badge/Donate-Support%20Me-blue?style=for-the-badge&logo=stripe)](https://buy.stripe.com/dRm9AU1xQ3Ds22N6VK1VK01)
 
 Your support means the world. Let's build something great together
 
-<br>
-
-<div align="center">
-
-&copy; 2026 Chai Chaimee NVDA Add-on Released under GNU General Public License
-
-</div>
+© 2026 Chai Chaimee NVDA Add-on Released under GNU GPL
